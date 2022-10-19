@@ -21,3 +21,4 @@ en este proyecto se busca aprende de Js y de React Js
 - [Yeison Berbesi Chapeta](https://github.com/yeison495)
 - [RICARDO LIZARAZO](https://github.com/Ricardoliza)
 - [Lizeth Manchego](https://github.com/LizManchego)
+- [Carolina Herrera](https://github.com/carolinaherrera19)
