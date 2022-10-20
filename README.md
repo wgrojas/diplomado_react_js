@@ -17,3 +17,8 @@ en este proyecto se busca aprende de Js y de React Js
 - Wilfer Acosta
 - [Wleimer M ](https://github.com/Wleimerjose/)
 - [Paula Andrea Salazar](https://github.com/PaulaAndreaSalazarAgudelo)
+- [Edinso Patiño Rueda](https://github.com/edinso0117)
+- [Yeison Berbesi Chapeta](https://github.com/yeison495)
+- [RICARDO LIZARAZO](https://github.com/Ricardoliza)
+- [Lizeth Manchego](https://github.com/LizManchego)
+- [Carolina Herrera](https://github.com/carolinaherrera19)
