@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        console.log("mi texto desde el archivo");
-        // alert('este es un ejemplo de mensaje con alert en js ')
-        valor = window.prompt("ingresa un numero", "1");
-        alert("ingresaste el numero: " + valor);
+        // console.log("mi texto desde el archivo");
+        // // alert('este es un ejemplo de mensaje con alert en js ')
+        // valor = window.prompt("ingresa un numero", "1");
+        // alert("ingresaste el numero: " + valor);
 
     </script>
 </head>
@@ -32,5 +32,19 @@
             window.prompt (ingresar texto input)
         </li>
     </ul>
+    <div id="contenido">
+        <p> contenido existente </p>
+    </div>
+    <h2> Calculadora </h2>
+    <p> vamos a ingresar dos valores</p>
+    <input type="number" id="valor_1">
+    <input type="number" id="valor_w">
+
+
+    <script>
+        contenido = document.getElementById('contenido')
+        contenido.innerHTML += 'hola mundo';
+    </script>
 </body>
+
 </html>
