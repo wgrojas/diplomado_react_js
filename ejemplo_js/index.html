@@ -32,18 +32,32 @@
             window.prompt (ingresar texto input)
         </li>
     </ul>
-    <div id="contenido">
-        <p> contenido existente </p>
-    </div>
+
     <h2> Calculadora </h2>
     <p> vamos a ingresar dos valores</p>
     <input type="number" id="valor_1">
-    <input type="number" id="valor_w">
+    <input type="number" id="valor_2">
 
+    <button id="myBtn"> click here </button>
+
+    <div id="contenido">
+        <p> Resultado:  </p>
+    </div>
 
     <script>
-        contenido = document.getElementById('contenido')
-        contenido.innerHTML += 'hola mundo';
+
+        document.getElementById("myBtn").addEventListener("click", showInfo);
+
+        function showInfo() {
+            a = parseInt(document.getElementById('valor_1').value);
+            b = parseInt(document.getElementById('valor_2').value);
+            resultado = a + b
+            // alert('la suma de los inputs es: '+ (a + b))
+            contenido = document.getElementById('contenido')
+            contenido.innerHTML = 'Resultado: ' + resultado;
+        }
+        
+
     </script>
 </body>
 
