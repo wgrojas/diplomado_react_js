@@ -5,13 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        // console.log("mi texto desde el archivo");
-        // // alert('este es un ejemplo de mensaje con alert en js ')
-        // valor = window.prompt("ingresa un numero", "1");
-        // alert("ingresaste el numero: " + valor);
-
-    </script>
 </head>
 <body>
     <h1> trabajando con Js</h1>
@@ -35,8 +28,8 @@
 
     <h2> Calculadora </h2>
     <p> vamos a ingresar dos valores</p>
-    <input type="number" id="valor_1">
-    <input type="number" id="valor_2">
+    <input type="number" id="valor_1" value="2">
+    <input type="number" id="valor_2" value="1">
 
     <button id="myBtnSuma"> + </button>
     <button id="myBtnResta"> - </button>
@@ -44,32 +37,7 @@
     <div id="contenido">
         <p> Resultado:  </p>
     </div>
-
-    <script>
-
-        document.getElementById("myBtnSuma").addEventListener("click", showInfo);
-        document.getElementById("myBtnResta").addEventListener("click", showResta);
-
-        function showInfo() {
-            a = parseInt(document.getElementById('valor_1').value);
-            b = parseInt(document.getElementById('valor_2').value);
-            resultado = a + b
-            // alert('la suma de los inputs es: '+ (a + b))
-            contenido = document.getElementById('contenido')
-            contenido.innerHTML = 'Resultado: ' + resultado;
-        }
-
-        function showResta() {
-            a = parseInt(document.getElementById('valor_1').value);
-            b = parseInt(document.getElementById('valor_2').value);
-            resultado = a - b
-            // alert('la suma de los inputs es: '+ (a + b))
-            contenido = document.getElementById('contenido')
-            contenido.innerHTML = 'Resultado: ' + resultado;
-        }
-        
-
-    </script>
 </body>
-
+<script src="./definiciones.js"></script>
+<script src="./ejecuciones.js"></script>
 </html>
